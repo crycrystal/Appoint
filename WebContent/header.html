@@ -1,0 +1,34 @@
+<head>
+	<meta charset="UTF-8">
+</head>
+
+<script>
+	$(function(){
+		//给搜索按钮绑定单击事件，获取搜索输入框中的内容
+		
+	});
+</script>
+
+<header id="header">
+	<div class="top_banner"></div>
+		<div class="shortcut">
+			<!-- 未登录状态  -->
+			<div class="login_out">
+				<a href="login.html">登录</a>
+				<a href="register.html">注册</a>
+			</div>
+			<!-- 登录状态  -->
+			<div class="login">  	
+				<span id="span_username"></span>
+				<a href="javascript:location.href='exitServlet';">退出</a>
+			</div>
+		</div>
+		<div class="header_wrap">
+			<div class="topbar">
+				<div class="search">
+					<input name="" id="search_input"  type="text" placeholder="搜索导师信息" class="search_input" autocomplete="off">
+					<a href="javascript:;" id="search-button" class="search-button">搜索</a>
+				</div>
+			</div>
+		</div>
+</header>
